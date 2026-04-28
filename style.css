@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.navbar nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn, .btn-outline {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  background: #38bdf8;
+  color: black;
+}
+
+.btn-outline {
+  border: 2px solid #38bdf8;
+  color: white;
+}
+
+/* SECTIONS */
+.section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #f3f4f6;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* CONTACT BUTTONS */
+.contact-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contact-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-5px);
+}
+
+/* Button Colors */
+.email {
+  background: #2563eb;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+.call {
+  background: #0f172a;
+  border: 2px solid #38bdf8;
+}
+
+/* FOOTER */
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
